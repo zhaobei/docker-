@@ -4,4 +4,4 @@ docker run \
   -v /data/redis_data:/data \
   --restart=always \
   -d redis:4.0.14-alpine \
-  --requirepass "rnj5cLQj3f"
+  --requirepass "<password>"
