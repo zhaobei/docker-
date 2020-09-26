@@ -5,7 +5,7 @@ if __name__ == "__main__":
     tarball = sys.argv[1]
     print(tarball)
 
-    workdir = '/Users/zhaobei/PycharmProjects/脚本联系'
+    workdir = '/data/images'
     os.system('rm -rf %s'%workdir)
     os.system('mkdir -p %s'%workdir)
     os.system('tar -zxvf %s -C %s'%(tarball, workdir))
